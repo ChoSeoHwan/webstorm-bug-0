@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "NodeNext",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "composite": true,
+    "paths": {
+      "@choseohwan-temp/b": ["../b/src"],
+      "@choseohwan-temp/c": ["../c/src"],
+    }
+  },
+  "references": [
+    { "path": "../b" },
+    { "path": "../c" }
+  ],
+  "include": ["src/**/*"]
+}

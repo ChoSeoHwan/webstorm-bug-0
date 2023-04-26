@@ -1,0 +1,26 @@
+{
+  "name": "@choseohwan-temp/a",
+  "version": "1.0.0",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "require": {
+        "default": "./dist/src/index.js",
+        "types": "./dist/src/index.d.ts"
+      }
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@choseohwan-temp/b": "workspace:^",
+    "@choseohwan-temp/c": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc -b -v"
+  }
+}

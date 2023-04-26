@@ -1,0 +1,13 @@
+{
+  "name": "@choseohwan-temp/webstorm-bug-0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.0",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
