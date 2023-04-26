@@ -6,11 +6,7 @@
     "rootDir": "./",
     "baseUrl": "./",
     "outDir": "dist",
-    "composite": true,
-    "paths": {
-      "@choseohwan-temp/b": ["../b/src"],
-      "@choseohwan-temp/c": ["../c/src"],
-    }
+    "composite": true
   },
   "references": [
     { "path": "../b" },
