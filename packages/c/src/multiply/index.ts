@@ -1,1 +1,1 @@
-export * from 'src/multiply/multiply.js';
+export * from './multiply';

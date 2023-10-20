@@ -10,6 +10,12 @@
         "default": "./dist/src/index.js",
         "types": "./dist/src/index.d.ts"
       }
+    },
+    "./divide": {
+      "require": {
+        "default": "./dist/src/divide/index.js",
+        "types": "./dist/src/divide/index.d.ts"
+      }
     }
   },
   "license": "MIT",
