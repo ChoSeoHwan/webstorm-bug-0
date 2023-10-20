@@ -10,6 +10,12 @@
         "default": "./dist/src/index.js",
         "types": "./dist/src/index.d.ts"
       }
+    },
+    "./multiply": {
+      "require": {
+        "default": "./dist/src/multiply/index.js",
+        "types": "./dist/src/multiply/index.d.ts"
+      }
     }
   },
   "license": "MIT",
